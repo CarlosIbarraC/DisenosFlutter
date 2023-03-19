@@ -1,6 +1,7 @@
 import 'dart:ffi';
 
 import 'package:disigne/screens/basic_designe.dart';
+import 'package:disigne/screens/scroll_designe.dart';
 import 'package:flutter/material.dart';
 //import 'package:disigne/screens/basic_designe.dart';
 
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      initialRoute: 'basic_designe',
+      initialRoute: 'scroll_screem',
       routes: {
-        'basic_designe':(_) => BasicDisigneScreen()
+        'basic_designe':(_) => BasicDisigneScreen(),
+        'scroll_screem':(_)=> ScrollScreen()
       },
     );
   }
