@@ -60,7 +60,9 @@ class MainContent extends StatelessWidget {
   });
 
   @override
+  
   Widget build(BuildContext context) {
+    
     return SafeArea(
       bottom: false,
       child: Column(     
@@ -72,7 +74,7 @@ class MainContent extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          Text('11°',
+          Text('12°',
           style: GoogleFonts.roboto(
             fontSize: 32,
             fontWeight: FontWeight.w600,
@@ -80,7 +82,7 @@ class MainContent extends StatelessWidget {
           ),
           ),
            Text('Miercoles',
-           style: GoogleFonts.roboto(
+           style: GoogleFonts.montserrat(
             fontSize: 36,
             fontWeight: FontWeight.w400,
             color: Colors.white
